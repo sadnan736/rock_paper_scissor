@@ -5,11 +5,9 @@ def pick_choice(user_input):
         return 'rock'
     if user_input == 'p':
         return 'paper'
-    if user_input == 's':
+    if user_input == 's' or user_input == 'scissors':
         return 'scissor'
-    if user_input == 'scissors':
-        return 'scissor'
-
+    
     return None
 
 def print_symbols(symbol):
